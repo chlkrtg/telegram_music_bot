@@ -103,12 +103,6 @@ def main():
     app.add_handler(MessageHandler(filters.COMMAND, handle_unknown_text))
 
     print("🚀 МУЗЫКАЛЬНЫЙ БОТ ЗАПУЩЕН")
-    print("📌 Genius API подключён для получения текстов песен")
-    print("📌 Spotify API подключён для поиска музыки")
-    print("📌 Billboard парсер активен")
-    print("📌 Добавлены интерактивные кнопки управления")
-    print("📌 Реализован быстрый поиск текста после /search")
-    print("📌 Умный обработчик текстовых сообщений")
 
     app.run_polling()
 
